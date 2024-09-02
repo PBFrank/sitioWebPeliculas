@@ -1,0 +1,58 @@
+﻿body {
+    background-color: #000; /* Agrega este código para cambiar el fondo a negro */
+    background-image: none;
+    font-family: Arial, sans-serif;
+    background-image: url("https://example.com/wave-border.png"); /* reemplaza con la URL de la imagen de fondo con borde de ola */
+    background-size: 100% 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: bold;
+    color: #e9e3e3;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.li{
+    color:#fff;
+    font-size:30px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.section {
+    width: 30%;
+    margin: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+.description {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.video {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
